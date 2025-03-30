@@ -1,0 +1,21 @@
+{
+    "name": "certificate-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot for vehicle certificate management",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "telegraf": "^4.12.2",
+      "mongoose": "^8.0.3",
+      "pdfkit": "^0.13.0",
+      "dotenv": "^16.3.1",
+      "axios": "^1.6.2",
+      "moment": "^2.29.4"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    }
+  }
